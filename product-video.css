@@ -1,0 +1,26 @@
+.product-video {
+  border-top: 1px solid var(--line);
+}
+
+.product-video h2 {
+  margin: 0 0 32px;
+}
+
+.product-video-player {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--dark);
+}
+
+.product-video-player iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.product-video > a {
+  margin-top: 20px;
+}
